@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:background="#ccc">
+
+        <TextView
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:text="name"
+            android:textColor="@color/black"
+            android:id="@+id/tv_name"
+            android:layout_margin="10dp"/>
+        <TextView
+            app:layout_constraintTop_toBottomOf="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="lname"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:id="@+id/tv_lname"
+            android:layout_margin="10dp"/>
+        <TextView
+            app:layout_constraintTop_toBottomOf="@+id/tv_lname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="phone"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:id="@+id/tv_phone"
+            android:layout_margin="10dp"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
